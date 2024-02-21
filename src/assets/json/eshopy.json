@@ -1,0 +1,94 @@
+{
+  "articles": [
+    {
+      "name": "BAPE 30th Anniv. Denim Pants",
+      "price": "US$352.00",
+      "stock": "5",
+      "img": "bape-01.jpg"
+    },
+    {
+      "name": "Line Camo Patch Denim Double Knee Work Pants",
+      "price": "US$753.00",
+      "stock": "8",
+      "img": "bape-02.jpg"
+    },
+    {
+      "name": "Ape Head One Point Relaxed Fit L/S Tee",
+      "price": "US$258.00",
+      "stock": "3",
+      "img": "bape-03.jpg"
+    },
+    {
+      "name": "Bape Souvenir Graphic L/s Tee",
+      "price": "US$176.00",
+      "stock": "5",
+      "img": "bape-04.jpg"
+    },
+    {
+      "name": "Ape Heart Hoop L/s Tee",
+      "price": "US$194.00",
+      "stock": "4",
+      "img": "bape-05.jpg"
+    },
+    {
+      "name": "Baby Milo Crewneck",
+      "price": "US$352.00",
+      "stock": "6",
+      "img": "bape-06.jpg"
+    },
+    {
+      "name": "A Bathing Ape Overdye Relaxed Fit Crewneck",
+      "price": "US$430.00",
+      "stock": "3",
+      "img": "bape-07.jpg"
+    },
+    {
+      "name": "A Bathing Ape Overdye Pullover Relaxed Fit Hoodie",
+      "price": "US$465.00",
+      "stock": "5",
+      "img": "bape-08.jpg"
+    },
+    {
+      "name": "Year Of Dragon Crewneck",
+      "price": "US$465.00",
+      "stock": "0",
+      "img": "bape-09.jpg"
+    },
+    {
+      "name": "Logo hoodie",
+      "price": "US$439.00",
+      "stock": "1",
+      "img": "bape-10.jpg"
+    },
+    {
+      "name": "Year of the Dragon Tee",
+      "price": "US$117.00",
+      "stock": "11",
+      "img": "bape-11.jpg"
+    },
+    {
+      "name": "Color Camo College Tee",
+      "price": "US$117.00",
+      "stock": "5",
+      "img": "bape-12.jpg"
+    },
+    {
+      "name": "Katakana Ape Head Tee",
+      "price": "US$117.00",
+      "stock": "1",
+      "img": "bape-13.jpg"
+    },
+    {
+      "name": "Bathing Ape Relaxed Fit Tee",
+      "price": "US$159.00",
+      "stock": "0",
+      "img": "bape-14.jpg"
+    },
+    {
+      "name": "Year of the Dragon Baby Milo Tee",
+      "price": "US$117.00",
+      "stock": "4",
+      "img": "bape-15.jpg"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+/* ########### HEADER ########### */
+.header {
+  background: #d8dbe2;
+  height: calc(5rem + 5px);
+  border-bottom: #a9bcd0 5px solid;
+}
+.header .header-nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.header .header-nav .nav-toggle {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  transition: background 0.2s;
+}
+.header .header-nav .nav-toggle:hover {
+  background: #97c6ce;
+}
+.header .header-nav .nav-toggle .nav-burger,
+.header .header-nav .nav-toggle .nav-close {
+  width: max-content;
+  height: max-content;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.5rem;
+  color: #1e1e1e;
+  transition: opacity 0.1s, transform 0.4s;
+}
+.header .header-nav .nav-data {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header-nav .nav-data a {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header-nav .nav-data .nav-logo {
+  height: 3.9rem;
+}
+.header .header-nav .nav-data .nav-name {
+  font-family: "garuteBold";
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: #58a4b0;
+}
+.header .header-nav .nav-menu {
+  padding: 0 28px;
+  padding-top: calc(5rem + 20px);
+  background: #fff;
+  position: absolute;
+  top: -100%;
+  right: 0;
+  opacity: 0;
+  height: 100vh;
+  width: 580px;
+  z-index: 99;
+  transition: top 0.3s, opacity 0.1s;
+}
+.calc {
+  width: calc(100% - 80px);
+}
+.scroll {
+  height: calc(100vh - 120px);
+  overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* ######### RESPONSIVE ######### */
+/* ### MOBILE ### */
+@media (max-width: 768px) {
+  .header .header-nav {
+    padding: 0 28px;
+  }
+  .header .header-nav .nav-menu {
+    width: 100%;
+  }
+}
+.show-menu {
+  position: fixed !important;
+  opacity: 1 !important;
+  top: 0 !important;
+}
+
+.nav-close {
+  opacity: 0;
+}
+
+.show-icon .nav-burger {
+  opacity: 0;
+  transform: rotate(90deg);
+}
+
+.show-icon .nav-close {
+  position: fixed !important;
+  opacity: 1;
+  transform: rotate(90deg);
+}

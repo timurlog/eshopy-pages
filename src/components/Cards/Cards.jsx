@@ -35,7 +35,7 @@ export default function Cards(props) {
             stock === 0
               ? "text-red-500"
               : stock === 1
-              ? "text-orange-500 animate-blink"
+              ? "text-orange-500 animate-pulse"
               : "text-[#58A4B0]"
           }`}
         >
